@@ -31,11 +31,6 @@ header {
     text-align: center;
 }
 
-header img:first-of-type {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-}
 
 .menu-navegacion {
     position: absolute;
