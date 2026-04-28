@@ -1,0 +1,88 @@
+
+.btn-rojo {
+    display: inline-block;
+    background: #e53935;
+    color: #fff;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s, transform 0.2s;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+
+html {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+body {
+    margin: 16px;
+    
+}
+header {
+    position: relative;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img:first-of-type {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.menu-navegacion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.menu-navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-navegacion a:hover {
+    text-decoration: underline;
+}
+
+.h2-color {
+    color: darkblue;
+   
+}
+
+.h2-lineup {
+    color: red;
+    margin-top:0px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1, h2, h3{
+    font-family: "Arvo", serif;
+}
+
+@media (max-width: 600px) {
+   
+    img{
+        width: 100%;
+    }
+}
